@@ -15,6 +15,7 @@ namespace JuntaDirectiva
         public Form1()
         {
             InitializeComponent();
+            Operaciones.CrearDirectorio(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
         }
     }
 }
